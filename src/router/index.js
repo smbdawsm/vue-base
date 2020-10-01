@@ -10,6 +10,18 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/login',
+    name: 'login',
+    meta: {layout: 'empty'},
+    component: () => import('../views/login.vue')
+  },
+  {
+    path: '/objects',
+    name: 'objects',
+    meta: {layout: 'main'},
+    component: () => import('../views/objects.vue')
+  },
 ]
 
 const router = new VueRouter({
