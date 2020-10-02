@@ -2,7 +2,7 @@
     <div class="main-box">
         
         <div class="obj-list">
-            <h2>Список объектов:</h2>
+            <h2>Наши объекты:</h2>
            <ul>
             <building 
                 v-for="obj of objects" :key="obj.id"
