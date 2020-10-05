@@ -1,5 +1,5 @@
 <template>
-    <li> {{ obj.title }} </li>
+    <li> <a style="color: white" href="/object">{{ obj.title }} </a>  </li>
 </template>
 
 <script>

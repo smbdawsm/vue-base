@@ -22,6 +22,12 @@ const routes = [
     meta: {layout: 'main'},
     component: () => import('../views/objects.vue')
   },
+  {
+    path: '/object',
+    name: 'object',
+    meta: {layout: 'main'},
+    component: () => import('../views/object.vue')
+  },
 ]
 
 const router = new VueRouter({

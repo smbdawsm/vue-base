@@ -27,4 +27,6 @@ export default {
 @import 'assets/Login-Form-Dark.css';
 @import 'assets/Header-Dark.css';
 @import 'assets/index.css';
+@import 'assets/css/Sidebar-Menu-1.css';
+@import 'assets/Sidebar-Menu.css';
 </style>
